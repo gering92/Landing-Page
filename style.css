@@ -100,6 +100,7 @@ a {
     width: 80px;
     height: 30px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 
@@ -197,5 +198,67 @@ a {
 
 /* Quote End */
 
+/* Call to Action */
+
+.callToAction {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 60px 150px;
+    padding: 30px;
+    color: white;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.callToActionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.callToActionTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.callToActionText {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.secondButton {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: #3882F6;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Call to Action End */
+
+/* Footer */
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footerText {
+    color: white;
+    font-size: 14px;
+    padding: 25px;
+}
+
+/* Footer End */
 
 
